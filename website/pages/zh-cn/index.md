@@ -1,7 +1,7 @@
 ---
 layout: "ssg-theme-astro/layouts/main.astro"
 tag: "GTM-NW2CFJFM"
-title: "Hibachi Buffet- Sushi & Grill - Best Food Today"
+title: "Hibachi Buffet- Sushi & Grill"
 favicon: "favicon.ico"
 logo: "logo.webp"
 primaryColor: "#EA5A1B" # logo color

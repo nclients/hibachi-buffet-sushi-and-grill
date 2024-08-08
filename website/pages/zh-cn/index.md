@@ -14,16 +14,16 @@ orderOnlineLink: "#"
 tableReservationLink: ""
 tel: "916-961-1508"
 
-banner:
-  text: 
-    - boldText: "🔥 無限暢享海鮮、壽司和鐵板燒。限時優惠。試營運特別折扣，憑此廣告全單享有15折優惠。"
-    - text: ""
-    # - smText: ""
-    # - text: ""
-  # add more text...
-  textColor: "#ffffff"
-  bgColor: "#EA5A1B"
-  bgOpacity: "1" # 0~1
+# banner:
+#   text: 
+#     - boldText: "🔥 無限暢享海鮮、壽司和鐵板燒。限時優惠。試營運特別折扣，憑此廣告全單享有15折優惠。"
+#     - text: ""
+#     # - smText: ""
+#     # - text: ""
+#   # add more text...
+#   textColor: "#ffffff"
+#   bgColor: "#EA5A1B"
+#   bgOpacity: "1" # 0~1
 
 # header
 header:
@@ -383,20 +383,20 @@ sections:
     telInsteadText: "tel: (916) 961-1508"
  
  # The modal will only appear once within 30 minutes."
-  - type: "modal" 
-    bgColor: "#333"
-    bgOpacity: "0.1" # 0~1
-    title: 
-      - "🔥 無限暢享海鮮、壽司和鐵板燒。"
-    titleColor: "##EA5A1B"
-    titleSize: 18
-    description: ""
-    descriptionColor: ""
-    descriptionSize: 16
-    imgName: "offer_chinese.webp"
-    imgAlt: "🔥 限時優惠。試營運特別折扣，憑此廣告全單享有15折優惠。"
-    buttonText: "導航去餐廳"
-    btnHref: "https://maps.app.goo.gl/baq4QQgK9q8gsvuT6" # default orderOnlineLink
+  # - type: "modal" 
+  #   bgColor: "#333"
+  #   bgOpacity: "0.1" # 0~1
+  #   title: 
+  #     - "🔥 無限暢享海鮮、壽司和鐵板燒。"
+  #   titleColor: "##EA5A1B"
+  #   titleSize: 18
+  #   description: ""
+  #   descriptionColor: ""
+  #   descriptionSize: 16
+  #   imgName: "offer_chinese.webp"
+  #   imgAlt: "🔥 限時優惠。試營運特別折扣，憑此廣告全單享有15折優惠。"
+  #   buttonText: "導航去餐廳"
+  #   btnHref: "https://maps.app.goo.gl/baq4QQgK9q8gsvuT6" # default orderOnlineLink
 
 footer:
   mode: 1 # 1

@@ -13,6 +13,8 @@ dataGlfRuid: ""
 orderOnlineLink: "#"
 tableReservationLink: ""
 tel: "916-961-1508"
+trackingNum: "279-348-8088"
+
 
 # banner:
 #   text: 

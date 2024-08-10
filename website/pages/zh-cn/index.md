@@ -3,7 +3,7 @@ layout: "ssg-theme-astro/layouts/main.astro"
 tag: "GTM-NW2CFJFM"
 title: "Hibachi Buffet- Sushi & Grill"
 favicon: "favicon.ico"
-logo: "logo.png"
+logo: "logo1.png"
 primaryColor: "#EA5A1B" # logo color
 secondaryColor: "#000000"
 primaryColorScheme: "dark" # dark | light
@@ -409,7 +409,7 @@ footer:
     - "週一 ～ 週日: 11:00 AM - 9:00 PM"
   openingHoursInsteadText: "營業時間"
   isLogo: true
-  logoSize: 80
+  logoSize: 95
 
   menu:
     - { text: "首頁", link: "#" }

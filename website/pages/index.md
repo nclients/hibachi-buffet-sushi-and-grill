@@ -73,11 +73,11 @@ sections:
     descriptionColor: "#ffffff"
 
     addOrderOnlineBtn: false
-    orderOnlineBtnInsteadText: "See MENU & Order"
+    orderOnlineBtnInsteadText: ""
     addTableReservationBtn: false
     tableReservationBtnInsteadText: ""
     showOtherBtn: false
-    btn1Text: "See MENU & Order" # default: order online
+    btn1Text: "" # default: order online
     btn1Href: "#" # default: order online
     btn2Text: "" # default: table reservation
     btn2Href: "" # default: table reservation
@@ -186,11 +186,11 @@ sections:
     isTextAlignCenter: false
 
     addOrderOnlineBtn: false
-    orderOnlineBtnInsteadText: "See MENU & Order"
+    orderOnlineBtnInsteadText: ""
     addTableReservationBtn: false
     tableReservationBtnInsteadText: ""
     showOtherBtn: false
-    btn1Text: "See MENU & Order" # default: order online
+    btn1Text: "" # default: order online
     btn1Href: "#" # default: order online
     btn2Text: "" # default: table reservation
     btn2Href: "" # default: table reservation
@@ -222,11 +222,11 @@ sections:
     descriptionColor: "#000000"
 
     addOrderOnlineBtn: false
-    orderOnlineBtnInsteadText: "See MENU & Order"
+    orderOnlineBtnInsteadText: ""
     addTableReservationBtn: false
     tableReservationBtnInsteadText: ""
     showOtherBtn: false
-    btn1Text: "See MENU & Order" # default: order online
+    btn1Text: "" # default: order online
     btn1Href: "#" # default: order online
     btn2Text: "" # default: table reservation
     btn2Href: "" # default: table reservation
@@ -271,11 +271,11 @@ sections:
     isTextAlignCenter: false
 
     addOrderOnlineBtn: false
-    orderOnlineBtnInsteadText: "See MENU & Order"
+    orderOnlineBtnInsteadText: ""
     addTableReservationBtn: false
     tableReservationBtnInsteadText: ""
     showOtherBtn: false
-    btn1Text: "See MENU & Order" # default: order online
+    btn1Text: "" # default: order online
     btn1Href: "#" # default: order online
     btn2Text: "" # default: table reservation
     btn2Href: "" # default: table reservation
@@ -336,7 +336,7 @@ sections:
 #     isTextAlignCenter: false
 
 #     addOrderOnlineBtn: false
-#     orderOnlineBtnInsteadText: "See MENU & Order"
+#     orderOnlineBtnInsteadText: ""
 #     addTableReservationBtn: false
 #     tableReservationBtnInsteadText: ""
 #     showOtherBtn: true

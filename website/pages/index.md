@@ -66,7 +66,7 @@ sections:
     bgColor: "#000"
     bgOpacity: "0.3" # 0~1
     title: 
-      - "Hibachi Buffet- Sushi & Grill - Best Food Today"
+      - "Hibachi Buffet- Sushi & Grill"
     titleColor: "#ffffff"
     description: 
       - "Experience Variety and Freshness: A Buffet Delight Awaits!"

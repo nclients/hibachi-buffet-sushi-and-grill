@@ -3,7 +3,7 @@ layout: "ssg-theme-astro/layouts/main.astro"
 tag: "GTM-NW2CFJFM"
 title: "Hibachi Buffet- Sushi & Grill"
 favicon: "favicon.ico"
-logo: "logo.webp"
+logo: "logo.png"
 primaryColor: "#EA5A1B" # logo color
 secondaryColor: "#000000"
 primaryColorScheme: "dark" # dark | light
@@ -27,7 +27,7 @@ tel: "279-348-8088"
 
 # header
 header:
-  logoSize: 50
+  logoSize: 85
   textAfterLogo: 
     text: ""
     size: 16

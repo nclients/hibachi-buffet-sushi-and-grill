@@ -76,10 +76,10 @@ sections:
     addTableReservationBtn: false
     tableReservationBtnInsteadText: ""
     showOtherBtn: false
-    btn1Text: "" # default: order online
-    btn1Href: "#" # default: order online
-    btn2Text: "" # default: table reservation
-    btn2Href: "" # default: table reservation
+    btn1Text: "Get Direction" # default: order online
+    btn1Href: "https://maps.app.goo.gl/baq4QQgK9q8gsvuT6" # default: order online
+    btn2Text: "Tel: (279) 348-8088" # default: table reservation
+    btn2Href: "tel:279-348-8088 " # default: table reservation
 
     bannerImg: "Hibachi Buffet- Sushi & Grill - Best Food Today.webp"
     imgAlt: "Hibachi Buffet- Sushi & Grill - Best Food Today"

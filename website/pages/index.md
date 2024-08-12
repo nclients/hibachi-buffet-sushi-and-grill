@@ -29,6 +29,7 @@ tel: "279-348-8088"
 # header
 header:
   logoSize: 60
+  logoSizeOnMobile: 50
   textAfterLogo: 
     text: ""
     size: 16

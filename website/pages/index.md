@@ -60,7 +60,7 @@ sections:
     height: "100" # Conditionally use only when sectionType is imgBg
     sectionType: "video" # video | imgWithText | imgBg
     bgVideoType: "gjw" # youtube | vimeo | gjw
-    bgVideoId: "1gueft0keol4QZp7RqibZLYsR1co1c"
+    bgVideoId: "1gvlliaiuet6msEpjPvBMYNJG1bn1c"
     bgImg: "background_image.webp"
     bgImgAlt: "Hibachi Buffet- Sushi & Grill - Best Food Today"
     bgColor: "#000"

@@ -88,7 +88,7 @@ sections:
     bannerMarginTopMobile: 16
     imgRounded: "lg" # sm | md | lg | xl | 2xl | 3xl | full
    
-    bottomRounded: "3xl" # sm | md | lg | xl | 2xl | 3xl | full
+    bottomRounded: "" # sm | md | lg | xl | 2xl | 3xl | full
     # bottomInfo: "We offer Takeout"
 
 # Video
@@ -410,6 +410,12 @@ footer:
   openingHours: 
     - "Monday to Sunday: 11:00 AM - 9:00 PM"
   
+  addressInsteadText: "Address"
+  address: 
+    - address: "5623 Sunrise Blvd, Citrus Heights, CA 95610"
+      url: "https://maps.app.goo.gl/baq4QQgK9q8gsvuT6"
+
+
   isLogo: true
   logoSize: 70
 

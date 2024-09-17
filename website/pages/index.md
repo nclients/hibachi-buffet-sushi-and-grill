@@ -440,11 +440,13 @@ footer:
   paymentMethod: "" #alipay,applePay,cash,discover,googlePay,jcb,maestro,mastercard,stripe,unionPay,visa,weChatPay,payPal
 
   # optional
-  seo:
-    metaDescription: "Discover Hibachi Buffet Sushi & Grill, a local favorite at 5623 Sunrise Blvd, Citrus Heights, CA. Enjoy fresh seafood, sushi, and Asian cuisine."
-    keywords: "Best Hibachi Buffet in Citrus Heights, All-you-can-eat Sushi in Citrus Heights, Family-friendly Asian Restaurant in Citrus Heights, Affordable Buffet in Citrus Heights, Hibachi Buffet with Fresh Seafood in Citrus Heights"
-    img: "Hibachi Buffet- Sushi & Grill - Best Food Today.webp"
-    thisPageUrl: ""
-    locale: "en_US" # zh_TW | zh_CN
+seo:
+  metaDescription: "Discover Hibachi Buffet Sushi & Grill, a local favorite at 5623 Sunrise Blvd, Citrus Heights, CA. Enjoy fresh seafood, sushi, and Asian cuisine."
+  keywords: "Best Hibachi Buffet in Citrus Heights, All-you-can-eat Sushi in Citrus Heights, Family-friendly Asian Restaurant in Citrus Heights, Affordable Buffet in Citrus Heights, Hibachi Buffet with Fresh Seafood in Citrus Heights"
+  img: "Hibachi Buffet- Sushi & Grill - Best Food Today.webp"
+  thisPageUrl: ""
+  locale: "en_US" # zh_TW | zh_CN
+  canonicalHref: "https://hibachi.i-bite.us/"
+
 ---
 <!-- hello world -->

@@ -438,11 +438,12 @@ footer:
   paymentMethod: "" #alipay,applePay,cash,discover,googlePay,jcb,maestro,mastercard,stripe,unionPay,visa,weChatPay,payPal
 
   # optional
-  seo:
-    metaDescription: "探索位於 Citrus Heights, CA 的 5623 Sunrise Blvd 上深受當地人喜愛的 Hibachi Buffet Sushi & Grill。享受新鮮海鮮、壽司和亞洲美食。"
-    keywords: "Citrus Heights 最佳鐵板燒自助餐, 無限暢吃壽司, 適合家庭的亞洲餐廳, 實惠的自助餐, 提供新鮮海鮮的鐵板燒自助餐"
-    img: "sHibachi Buffet- Sushi & Grill - Best Food Today.webp"
-    thisPageUrl: ""
-    locale: "zh_CN" # zh_TW | zh_CN
+seo:
+  metaDescription: "探索位於 Citrus Heights, CA 的 5623 Sunrise Blvd 上深受當地人喜愛的 Hibachi Buffet Sushi & Grill。享受新鮮海鮮、壽司和亞洲美食。"
+  keywords: "Citrus Heights 最佳鐵板燒自助餐, 無限暢吃壽司, 適合家庭的亞洲餐廳, 實惠的自助餐, 提供新鮮海鮮的鐵板燒自助餐"
+  img: "sHibachi Buffet- Sushi & Grill - Best Food Today.webp"
+  thisPageUrl: ""
+  locale: "zh_CN" # zh_TW | zh_CN
+  canonicalHref: "https://hibachi.i-bite.us/zh-cn/"
 ---
 <!-- hello world -->

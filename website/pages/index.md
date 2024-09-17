@@ -441,6 +441,7 @@ footer:
 
   # optional
 seo:
+  metaTitle: "Hibachi Buffet Sushi & Grill | Citrus Heights"
   metaDescription: "Discover Hibachi Buffet Sushi & Grill, a local favorite at 5623 Sunrise Blvd, Citrus Heights, CA. Enjoy fresh seafood, sushi, and Asian cuisine."
   keywords: "Best Hibachi Buffet in Citrus Heights, All-you-can-eat Sushi in Citrus Heights, Family-friendly Asian Restaurant in Citrus Heights, Affordable Buffet in Citrus Heights, Hibachi Buffet with Fresh Seafood in Citrus Heights"
   img: "Hibachi Buffet- Sushi & Grill - Best Food Today.webp"

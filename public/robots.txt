@@ -1,9 +1,3 @@
 User-agent: *
-Allow: /$
-Allow: /zh-cn/$
-Allow: /gallery/
-Allow: /gallery2/
-Allow: /robots.txt
-Allow: /sitemap.xml
-Disallow: /
+Disallow: 
 Sitemap: https://hibachi.i-bite.us/sitemap.xml

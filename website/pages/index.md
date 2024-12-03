@@ -61,11 +61,11 @@ sections:
     bgVideoType: "gjw" # youtube | vimeo | gjw
     bgVideoId: "1gvlliaiuet6msEpjPvBMYNJG1bn1c"
     bgImg: "background_image.webp"
-    bgImgAlt: "Hibachi Buffet- Sushi & Grill - Best Food Today"
+    bgImgAlt: "hibachi buffet sushi and grill citrus heights"
     bgColor: "#000"
     bgOpacity: "0.3" # 0~1
     title:
-      - "Hibachi Buffet- Sushi & Grill"
+      - "hibachi buffet sushi and grill citrus heights"
     titleColor: "#ffffff"
     description:
       - "Experience Variety and Freshness: A Buffet Delight Awaits!"

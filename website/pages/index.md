@@ -57,7 +57,7 @@ sections:
   - type: "hero"
     id: ""
     height: "100" # Conditionally use only when sectionType is imgBg
-    sectionType: "video" # video | imgWithText | imgBg
+    sectionType: "imgWithText" # video | imgWithText | imgBg
     bgVideoType: "gjw" # youtube | vimeo | gjw
     bgVideoId: "1gvlliaiuet6msEpjPvBMYNJG1bn1c"
     bgImg: "background_image.webp"
@@ -83,24 +83,12 @@ sections:
 
     bannerImg: "Hibachi Buffet- Sushi & Grill - Best Food Today.webp"
     imgAlt: "Hibachi Buffet- Sushi & Grill - Best Food Today"
-    imgPosition: "imgLeft" # imgLeft | imgRight
+    imgPosition: "" # imgLeft | imgRight
     bannerMarginTopMobile: 16
     imgRounded: "lg" # sm | md | lg | xl | 2xl | 3xl | full
 
     bottomRounded: "" # sm | md | lg | xl | 2xl | 3xl | full
     # bottomInfo: "We offer Takeout"
-
-  # Video
-  - type: "video"
-    id: "video"
-    title:
-      - "Your #1 Buffet Destination！"
-    description:
-      - "Bringing You Culinary Delights with Our Commitment to Quality and Service."
-    videoType: "gjw" # vimeo | gjw | youtube
-    videoId:
-      - "1gueft0keol4QZp7RqibZLYsR1co1c"
-    isOnlyDisplayOnMobile: true
 
   # Gallery
   - type: "gallery"
@@ -369,7 +357,17 @@ sections:
   #     description:
   #       - "Online ordering NOW enabled for pick-up. Just tell us what you want and we'll prepare it as fast as we can. All orders are manually confirmed by us directly. Find out in real-time when your food is ready. All orders are manually confirmed by us in real-time. Watch on-screen when your food is ready for pickup."
   #     descriptionColor: "#ffffff"
-
+  # Video
+  # - type: "video"
+  #   id: "video"
+  #   title:
+  #     - "Your #1 Buffet Destination！"
+  #   description:
+  #     - "Bringing You Culinary Delights with Our Commitment to Quality and Service."
+  #   videoType: "gjw" # vimeo | gjw | youtube
+  #   videoId:
+  #     - "1gueft0keol4QZp7RqibZLYsR1co1c"
+  #   isOnlyDisplayOnMobile: false
   # map
   - type: "map"
     noMarginTop: false

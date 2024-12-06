@@ -56,17 +56,18 @@ sections:
   # hero
   - type: "hero"
     id: ""
-    height: "100" # Conditionally use only when sectionType is imgBg
-    sectionType: "imgWithText" # video | imgWithText | imgBg
+    height: "90" # Conditionally use only when sectionType is imgBg
+    sectionType: "imgBg" # video | imgWithText | imgBg
     bgVideoType: "gjw" # youtube | vimeo | gjw
     bgVideoId: "1gvlliaiuet6msEpjPvBMYNJG1bn1c"
-    bgImg: "background_image.webp"
+    bgImg: "Hibachi Buffet- Sushi & Grill - Best Food Today.webp"
     bgImgAlt: "hibachi buffet sushi and grill citrus heights"
     bgColor: "#000"
-    bgOpacity: "0.3" # 0~1
+    bgOpacity: "0.5" # 0~1
     title:
       - "hibachi buffet sushi and grill citrus heights"
     titleColor: "#ffffff"
+    titleBgColor: "#000"
     description:
       - "Experience Variety and Freshness: A Buffet Delight Awaits!"
     descriptionColor: "#ffffff"
@@ -93,7 +94,7 @@ sections:
   # Gallery
   - type: "gallery"
     id: "gallery"
-    mode: 1 # 1 - 3
+    mode: 3 # 1 - 3
     bgImg: ""
     bgImgAlt: ""
     bgColor: ""
@@ -105,6 +106,24 @@ sections:
       - "Start Your Journey now!"
     descriptionColor: "#333333"
     folderPath: "gallery"
+    showImgName: false # true | false
+    imgNameColor: "#000000"
+    menuItemImgRounded: "3xl" # sm | md | lg | xl | 2xl | 3xl | full
+
+  - type: "gallery"
+    id: "menu"
+    mode: 2 # 1 - 3
+    bgImg: ""
+    bgImgAlt: ""
+    bgColor: ""
+    bgOpacity: "" # 0~1
+    title:
+      - "menu"
+    titleColor: "#000000"
+    description:
+      - "our all-you-can-eat buffet promises something for everyone!"
+    descriptionColor: "#333333"
+    folderPath: "menu"
     showImgName: false # true | false
     imgNameColor: "#000000"
     menuItemImgRounded: "3xl" # sm | md | lg | xl | 2xl | 3xl | full

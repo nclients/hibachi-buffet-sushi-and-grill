@@ -105,7 +105,7 @@ sections:
   # Gallery
   - type: "gallery"
     id: "gallery"
-    mode: 1 # 1 - 3
+    mode: 3 # 1 - 3
     bgImg: ""
     bgImgAlt: ""
     bgColor: ""
@@ -120,6 +120,39 @@ sections:
     showImgName: false # true | false
     imgNameColor: "#000000"
     menuItemImgRounded: "3xl" # sm | md | lg | xl | 2xl | 3xl | full
+
+  - type: "gallery"
+    id: "menu"
+    mode: 2 # 1 - 3
+    bgImg: ""
+    bgImgAlt: ""
+    bgColor: ""
+    bgOpacity: "" # 0~1
+    title:
+      - "菜單"
+    titleColor: "#000000"
+    description:
+      - "來自 Citrus Heights 的鐵板燒自助餐,您附近的人氣自助餐廳!"
+    descriptionColor: "#333333"
+    folderPath: "menu"
+    showImgName: false # true | false
+    imgNameColor: "#000000"
+    menuItemImgRounded: "3xl" # sm | md | lg | xl | 2xl | 3xl | full
+
+  # # textBlock
+  #   - type: "textBlock"
+  #     id: "about-us"
+  #     bgImg: ""
+  #     bgImgAlt: ""
+  #     bgColor: "#000"
+  #     bgOpacity: "" # 0~1
+  # title:
+  #   - "A Corner of Tradition and Flavor"
+  # titleColor: "#000000"
+  # description:
+  #   - "From the heart of Newark, CA, Crabby Crabby Restaurant is a corner where tradition meets flavor. Every corner of our restaurant is infused with authenticity, from the décor to every bite we serve."
+  #   # - text: "We serve Imperial Soup dishes plus other Asian dishes. Feel free to message us about inquiries! We'll get back to you as soon as we can!"
+  # descriptionColor: "#000000"
 
   # # textBlock
   #   - type: "textBlock"
@@ -147,7 +180,7 @@ sections:
       - "關於我們"
     titleColor: "#000000"
     description:
-      - "來體驗 Hibachi Buffet Sushi & Grill 的亞洲美食，每一次的到訪都是一場美食冒險之旅！"
+      - ""
     descriptionColor: ""
 
   # feature - 1

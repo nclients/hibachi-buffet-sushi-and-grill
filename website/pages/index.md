@@ -91,10 +91,22 @@ sections:
     bottomRounded: "" # sm | md | lg | xl | 2xl | 3xl | full
     # bottomInfo: "We offer Takeout"
 
+  # Video
+  - type: "video"
+    id: "video"
+    title:
+      - "Hibachi Buffet Sushi and Grill"
+  #   description:
+  #     - "Bringing You Culinary Delights with Our Commitment to Quality and Service."
+    videoType: "gjw" # vimeo | gjw | youtube
+    videoId:
+      - "1gueft0keol4QZp7RqibZLYsR1co1c"
+    isOnlyDisplayOnMobile: false
+
   # Gallery
   - type: "gallery"
     id: "gallery"
-    mode: 3 # 1 - 3
+    mode: 3 # 1 - 4
     bgImg: ""
     bgImgAlt: ""
     bgColor: ""
@@ -376,17 +388,7 @@ sections:
   #     description:
   #       - "Online ordering NOW enabled for pick-up. Just tell us what you want and we'll prepare it as fast as we can. All orders are manually confirmed by us directly. Find out in real-time when your food is ready. All orders are manually confirmed by us in real-time. Watch on-screen when your food is ready for pickup."
   #     descriptionColor: "#ffffff"
-  # Video
-  # - type: "video"
-  #   id: "video"
-  #   title:
-  #     - "Your #1 Buffet Destination！"
-  #   description:
-  #     - "Bringing You Culinary Delights with Our Commitment to Quality and Service."
-  #   videoType: "gjw" # vimeo | gjw | youtube
-  #   videoId:
-  #     - "1gueft0keol4QZp7RqibZLYsR1co1c"
-  #   isOnlyDisplayOnMobile: false
+  
   # map
   - type: "map"
     noMarginTop: false

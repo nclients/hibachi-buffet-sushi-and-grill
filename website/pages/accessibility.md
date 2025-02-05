@@ -14,7 +14,9 @@ orderOnlineLink: "#"
 tableReservationLink: ""
 tel: "279-348-8088"
 address: 5623 Sunrise Blvd, Citrus Heights, CA 95610
+
 creationDate: 5 Jan 2025
+
 
 # banner:
 #   text:
@@ -57,7 +59,11 @@ header:
 sections:
   # hero
   - type: "accessibility"
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> 2ce36f37ed4497da95b46347c0bed5b82dbc4911
 footer:
   mode: 1 # 1
   noMarginTop: true
@@ -97,6 +103,7 @@ footer:
   paymentMethod: "" #alipay,applePay,cash,discover,googlePay,jcb,maestro,mastercard,stripe,unionPay,visa,weChatPay,payPal
 
   # optional
+<<<<<<< HEAD
 seo:
   metaTitle: "Hibachi Buffet Sushi & Grill | Citrus Heights"
   metaDescription: "Discover Hibachi Buffet Sushi & Grill, a local favorite at 5623 Sunrise Blvd, Citrus Heights, CA. Enjoy fresh seafood, sushi, and Asian cuisine."
@@ -106,5 +113,9 @@ seo:
   locale: "en_US" # zh_TW | zh_CN
   canonicalHref: "https://hibachi.i-bite.us/accessibility"
 ---
+
+## =======
+
+> > > > > > > 2ce36f37ed4497da95b46347c0bed5b82dbc4911
 
 <!-- hello world -->

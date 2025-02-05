@@ -57,11 +57,11 @@ sections:
   - type: "hero"
     id: ""
     height: "100" # Conditionally use only when sectionType is imgBg
-    sectionType: "video" # video | imgWithText | imgBg
+    sectionType: "imgBg" # video | imgWithText | imgBg
     bgVideoType: "gjw" # youtube | vimeo | gjw
     bgVideoId: "1gvlliaiuet6msEpjPvBMYNJG1bn1c"
-    bgImg: "background_image.webp"
-    bgImgAlt: "Hibachi Buffet- Sushi & Grill - Best Food Today"
+    bgImg: "Hibachi Buffet- Sushi & Grill - Best Food Today.webp"
+    bgImgAlt: "hibachi buffet sushi and grill citrus heights"
     bgColor: "#000"
     bgOpacity: "0.3" # 0~1
     title:
@@ -101,6 +101,19 @@ sections:
     videoId:
       - "1gueft0keol4QZp7RqibZLYsR1co1c"
     isOnlyDisplayOnMobile: true
+
+    # Video
+  - type: "video"
+    id: "video"
+    title:
+      - "日式鐵板燒自助壽司燒烤"
+  #   description:
+  #     - "Bringing You Culinary Delights with Our Commitment to Quality and Service."
+    videoType: "gjw" # vimeo | gjw | youtube
+    videoId:
+      - "1gueft0keol4QZp7RqibZLYsR1co1c"
+    isOnlyDisplayOnMobile: false
+
 
   # Gallery
   - type: "gallery"

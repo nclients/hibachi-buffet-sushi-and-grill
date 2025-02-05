@@ -18,17 +18,6 @@ address: 5623 Sunrise Blvd, Citrus Heights, CA 95610
 creationDate: 5 Jan 2025
 
 
-# banner:
-#   text:
-#     - boldText: "🔥 All you can eat seafood, sushi and hibachi grill. Limited time offer. soft opening special . take 15% off entire bill with this ad."
-#     - text: ""
-#     # - smText: ""
-#     # - text: ""
-#   # add more text...
-#   textColor: "#ffffff"
-#   bgColor: "#EA5A1B"
-#   bgOpacity: "1" # 0~1
-
 # header
 header:
   logoSize: 60
@@ -113,9 +102,5 @@ seo:
   locale: "en_US" # zh_TW | zh_CN
   canonicalHref: "https://hibachi.i-bite.us/accessibility"
 ---
-
-## =======
-
-> > > > > > > 2ce36f37ed4497da95b46347c0bed5b82dbc4911
 
 <!-- hello world -->

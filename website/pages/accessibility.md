@@ -104,7 +104,7 @@ seo:
   img: "Hibachi Buffet- Sushi & Grill - Best Food Today.webp"
   thisPageUrl: ""
   locale: "en_US" # zh_TW | zh_CN
-  canonicalHref: "https://hibachi.i-bite.us/"
+  canonicalHref: "https://hibachi.i-bite.us/accessibility"
 ---
 
 <!-- hello world -->

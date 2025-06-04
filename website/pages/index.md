@@ -56,7 +56,7 @@ sections:
   # hero
   - type: "hero"
     id: ""
-    height: "90" # Conditionally use only when sectionType is imgBg
+    height: "100" # Conditionally use only when sectionType is imgBg
     sectionType: "video" # video | imgWithText | imgBg
     bgVideoType: "gjw" # youtube | vimeo | gjw
     bgVideoId: "1gvlliaiuet6msEpjPvBMYNJG1bn1c"

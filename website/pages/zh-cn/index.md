@@ -60,7 +60,7 @@ sections:
     sectionType: "video" # video | imgWithText | imgBg
     bgVideoType: "gjw" # youtube | vimeo | gjw
     bgVideoId: "1gvlliaiuet6msEpjPvBMYNJG1bn1c"
-    bgImg: "Hibachi Buffet- Sushi & Grill - Best Food Today.webp"
+    bgImg: "Hibachi Buffet- Sushi & Grill - Best Food Today_original.webp"
     bgImgAlt: "hibachi buffet sushi and grill citrus heights"
     bgColor: "#000"
     bgOpacity: "0.3" # 0~1
@@ -90,17 +90,17 @@ sections:
     bottomRounded: "" # sm | md | lg | xl | 2xl | 3xl | full
     # bottomInfo: "We offer Takeout"
 
-  # Video
-  - type: "video"
-    id: "video"
-    title:
-      - "您的首選自助餐目的地"
-    description:
-      - "秉持品質與服務的承諾，為您帶來美食的享受。"
-    videoType: "gjw" # vimeo | gjw | youtube
-    videoId:
-      - "1gueft0keol4QZp7RqibZLYsR1co1c"
-    isOnlyDisplayOnMobile: true
+  # # Video
+  # - type: "video"
+  #   id: "video"
+  #   title:
+  #     - "您的首選自助餐目的地"
+  #   description:
+  #     - "秉持品質與服務的承諾，為您帶來美食的享受。"
+  #   videoType: "gjw" # vimeo | gjw | youtube
+  #   videoId:
+  #     - "1gueft0keol4QZp7RqibZLYsR1co1c"
+  #   isOnlyDisplayOnMobile: true
 
     # Video
   - type: "video"

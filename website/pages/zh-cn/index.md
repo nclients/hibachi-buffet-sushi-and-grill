@@ -57,7 +57,7 @@ sections:
   - type: "hero"
     id: ""
     height: "100" # Conditionally use only when sectionType is imgBg
-    sectionType: "imgBg" # video | imgWithText | imgBg
+    sectionType: "video" # video | imgWithText | imgBg
     bgVideoType: "gjw" # youtube | vimeo | gjw
     bgVideoId: "1gvlliaiuet6msEpjPvBMYNJG1bn1c"
     bgImg: "Hibachi Buffet- Sushi & Grill - Best Food Today.webp"
@@ -68,7 +68,7 @@ sections:
       - "Hibachi Buffet- Sushi & Grill"
     titleColor: "#ffffff"
     description:
-      - "豐富多樣，新鮮美味：自助餐的美食盛宴等待您的品嚐!"
+      - "豐富多樣，新鮮美味：薩克拉門托最大的自助餐廳！"
     descriptionColor: "#ffffff"
 
     addOrderOnlineBtn: false
@@ -107,8 +107,8 @@ sections:
     id: "video"
     title:
       - "日式鐵板燒自助壽司燒烤"
-  #   description:
-  #     - "Bringing You Culinary Delights with Our Commitment to Quality and Service."
+    description:
+      - "榮獲「美國美食」評選第一"
     videoType: "gjw" # vimeo | gjw | youtube
     videoId:
       - "1gueft0keol4QZp7RqibZLYsR1co1c"
@@ -127,7 +127,7 @@ sections:
       - "自助餐愛好者的天堂"
     titleColor: "#000000"
     description:
-      - "在Hibachi Buffet- Sushi & Grill 開啟您的亞洲美食之旅。"
+      - "薩克拉門託頂級自助餐之選"
     descriptionColor: "#333333"
     folderPath: "gallery"
     showImgName: false # true | false
@@ -239,7 +239,7 @@ sections:
     btn2Text: "" # default: table reservation
     btn2Href: "" # default: table reservation
 
-    bannerImg: "gallery2/A close-up of a plate of sushi rolls with various fillings including shrimp and crab.webp"
+    bannerImg: "gallery2/Hibachi Buffet- Sushi & Grill1.webp"
     imgAlt: "Hibachi_Buffet_Sushi_Grill_Best_Food_Today"
     imgPosition: "imgLeft" # imgLeft | imgRight
 
@@ -274,7 +274,7 @@ sections:
     btn2Text: "" # default: table reservation
     btn2Href: "" # default: table reservation
 
-    bannerImg: "gallery2/A delicious-looking plate of crab.webp"
+    bannerImg: "gallery2/Hibachi Buffet- Sushi & Grill.webp"
     imgAlt: "Lorem ipsum dolor sit amet"
     imgPosition: "imgRight" # imgLeft | imgRight
 

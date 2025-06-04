@@ -57,7 +57,7 @@ sections:
   - type: "hero"
     id: ""
     height: "90" # Conditionally use only when sectionType is imgBg
-    sectionType: "imgBg" # video | imgWithText | imgBg
+    sectionType: "video" # video | imgWithText | imgBg
     bgVideoType: "gjw" # youtube | vimeo | gjw
     bgVideoId: "1gvlliaiuet6msEpjPvBMYNJG1bn1c"
     bgImg: "Hibachi Buffet- Sushi & Grill - Best Food Today.webp"
@@ -65,11 +65,11 @@ sections:
     bgColor: "#000"
     bgOpacity: "0.5" # 0~1
     title:
-      - "hibachi buffet sushi and grill citrus heights"
+      - "Hibachi Buffet Sushi and Grill"
     titleColor: "#ffffff"
     titleBgColor: "#000"
     description:
-      - "Experience Variety and Freshness: A Buffet Delight Awaits!"
+      - "Experience Variety and Freshness: The largest buffet restaurant in Sacramento!"
     descriptionColor: "#ffffff"
 
     addOrderOnlineBtn: false
@@ -96,8 +96,8 @@ sections:
     id: "video"
     title:
       - "Hibachi Buffet Sushi and Grill"
-  #   description:
-  #     - "Bringing You Culinary Delights with Our Commitment to Quality and Service."
+    description:
+      - "Voted No.1 by ‘Taste of America’"
     videoType: "gjw" # vimeo | gjw | youtube
     videoId:
       - "1gueft0keol4QZp7RqibZLYsR1co1c"
@@ -112,10 +112,10 @@ sections:
     bgColor: ""
     bgOpacity: "" # 0~1
     title:
-      - "Hibachi Buffet Sushi and Grill Citrus Heights Photos"
+      - "Food at Hibachi Buffet Sushi and Grill"
     titleColor: "#000000"
     description:
-      - "Start Your Journey now!"
+      - "Sacramento’s Top Buffet Choice！"
     descriptionColor: "#333333"
     folderPath: "gallery"
     showImgName: false # true | false
@@ -130,7 +130,7 @@ sections:
     bgColor: ""
     bgOpacity: "" # 0~1
     title:
-      - "menu"
+      - "Menu"
     titleColor: "#000000"
     description:
       - "our all-you-can-eat buffet promises something for everyone!"
@@ -212,7 +212,7 @@ sections:
     btn2Text: "" # default: table reservation
     btn2Href: "" # default: table reservation
 
-    bannerImg: "gallery2/A close-up of a plate of sushi rolls with various fillings including shrimp and crab.webp"
+    bannerImg: "gallery2/Hibachi Buffet- Sushi & Grill1.webp"
     imgAlt: "Hibachi_Buffet_Sushi_Grill_Best_Food_Today"
     imgPosition: "imgLeft" # imgLeft | imgRight
 
@@ -247,8 +247,8 @@ sections:
     btn2Text: "" # default: table reservation
     btn2Href: "" # default: table reservation
 
-    bannerImg: "gallery2/A delicious-looking plate of crab.webp"
-    imgAlt: "Lorem ipsum dolor sit amet"
+    bannerImg: "gallery2/Hibachi Buffet- Sushi & Grill.webp"
+    imgAlt: ""
     imgPosition: "imgRight" # imgLeft | imgRight
 
     bottomRounded: "3xl" # sm | md | lg | xl | 2xl | 3xl | full

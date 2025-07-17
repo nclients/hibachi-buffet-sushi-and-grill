@@ -98,7 +98,7 @@ footer:
 
   # optional
 seo:
-  canonicalHref: "https://hibachi.i-bite.us/accessibility"
+  canonicalHref: "https://hibachibuffetsacramento.com/accessibility"
 ---
 
 <!-- hello world -->

@@ -60,7 +60,7 @@ sections:
     sectionType: "video" # video | imgWithText | imgBg
     bgVideoType: "gjw" # youtube | vimeo | gjw
     bgVideoId: "1gvlliaiuet6msEpjPvBMYNJG1bn1c"
-    bgImg: "Hibachi Buffet- Sushi & Grill - Best Food Today.webp"
+    bgImg: "Hibachi Buffet- Sushi & Grill - Best Food Today_original.webp"
     bgImgAlt: "hibachi buffet sushi and grill citrus heights"
     bgColor: "#000"
     bgOpacity: "0.5" # 0~1
@@ -82,11 +82,11 @@ sections:
     btn2Text: "Tel: (279) 348-8088" # default: table reservation
     btn2Href: "tel:279-348-8088 " # default: table reservation
 
-    bannerImg: "Hibachi Buffet- Sushi & Grill - Best Food Today.webp"
+    # bannerImg: "Hibachi Buffet- Sushi & Grill - Best Food Today.webp"
     imgAlt: "Hibachi Buffet- Sushi & Grill - Best Food Today"
-    imgPosition: "" # imgLeft | imgRight
+    imgPosition: "imgLeft" # imgLeft | imgRight
     bannerMarginTopMobile: 16
-    imgRounded: "lg" # sm | md | lg | xl | 2xl | 3xl | full
+    imgRounded: "" # sm | md | lg | xl | 2xl | 3xl | full
 
     bottomRounded: "" # sm | md | lg | xl | 2xl | 3xl | full
     # bottomInfo: "We offer Takeout"

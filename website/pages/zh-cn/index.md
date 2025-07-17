@@ -81,7 +81,7 @@ sections:
     btn2Text: "電話: (279) 348-8088" # default: table reservation
     btn2Href: "tel:279-348-8088 " # default: table reservation
 
-    bannerImg: "Hibachi Buffet- Sushi & Grill - Best Food Today.webp"
+    # bannerImg: "Hibachi Buffet- Sushi & Grill - Best Food Today.webp"
     imgAlt: "Hibachi Buffet- Sushi & Grill - Best Food Today"
     imgPosition: "imgLeft" # imgLeft | imgRight
     bannerMarginTopMobile: 16

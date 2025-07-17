@@ -102,7 +102,7 @@ sections:
   #     - "1gueft0keol4QZp7RqibZLYsR1co1c"
   #   isOnlyDisplayOnMobile: true
 
-    # Video
+  # Video
   - type: "video"
     id: "video"
     title:
@@ -113,7 +113,6 @@ sections:
     videoId:
       - "1gueft0keol4QZp7RqibZLYsR1co1c"
     isOnlyDisplayOnMobile: false
-
 
   # Gallery
   - type: "gallery"
@@ -488,7 +487,7 @@ seo:
   img: "sHibachi Buffet- Sushi & Grill - Best Food Today.webp"
   thisPageUrl: ""
   locale: "zh_CN" # zh_TW | zh_CN
-  canonicalHref: "https://hibachi.i-bite.us/zh-cn/"
+  canonicalHref: "https://hibachibuffetsacramento.com/"
 ---
 
 <!-- hello world -->

@@ -388,7 +388,7 @@ sections:
   #     description:
   #       - "Online ordering NOW enabled for pick-up. Just tell us what you want and we'll prepare it as fast as we can. All orders are manually confirmed by us directly. Find out in real-time when your food is ready. All orders are manually confirmed by us in real-time. Watch on-screen when your food is ready for pickup."
   #     descriptionColor: "#ffffff"
-  
+
   # map
   - type: "map"
     noMarginTop: false
@@ -462,7 +462,7 @@ seo:
   img: "Hibachi Buffet- Sushi & Grill - Best Food Today.webp"
   thisPageUrl: ""
   locale: "en_US" # zh_TW | zh_CN
-  canonicalHref: "https://hibachi.i-bite.us/"
+  canonicalHref: "https://hibachibuffetsacramento.com/"
 ---
 
 <!-- hello world -->

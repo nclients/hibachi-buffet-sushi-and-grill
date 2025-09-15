@@ -12,7 +12,7 @@ dataGlfCuid: ""
 dataGlfRuid: ""
 orderOnlineLink: "#"
 tableReservationLink: ""
-tel: "279-348-8088"
+tel: "(916) 961-1508"
 
 # banner:
 #   text:
@@ -79,8 +79,8 @@ sections:
     showOtherBtn: false
     btn1Text: "Get Direction" # default: order online
     btn1Href: "https://maps.app.goo.gl/baq4QQgK9q8gsvuT6" # default: order online
-    btn2Text: "Tel: (279) 348-8088" # default: table reservation
-    btn2Href: "tel:279-348-8088 " # default: table reservation
+    btn2Text: "Tel: (916) 961-1508" # default: table reservation
+    btn2Href: "tel:(916) 961-1508 " # default: table reservation
 
     # bannerImg: "Hibachi Buffet- Sushi & Grill - Best Food Today.webp"
     imgAlt: "Hibachi Buffet- Sushi & Grill - Best Food Today"
@@ -398,7 +398,7 @@ sections:
     iframeUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3115.1563766683626!2d-121.27547174783979!3d38.66827407348092!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809adf84c7c0d6d3%3A0x8ad478e11209fd52!2sHibachi%20Buffet%2C%20Sushi%20%26%20Grill!5e0!3m2!1sen!2sus!4v1722498429048!5m2!1sen!2sus"
     addTelBtn: true
     getDirectionBtnInsteadText: ""
-    telInsteadText: "Tel: 279-348-8088"
+    telInsteadText: "Tel: (916) 961-1508"
 
   # The modal will only appear once within 30 minutes."
   # - type: "modal"

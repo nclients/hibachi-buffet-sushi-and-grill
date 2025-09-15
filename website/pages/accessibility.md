@@ -12,7 +12,7 @@ dataGlfCuid: ""
 dataGlfRuid: ""
 orderOnlineLink: "#"
 tableReservationLink: ""
-tel: "279-348-8088"
+tel: "(916) 961-1508"
 address: 5623 Sunrise Blvd, Citrus Heights, CA 95610
 creationDate: 1 Jan, 2025
 

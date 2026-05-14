@@ -39,6 +39,7 @@ header:
   menu:
     - { text: "首頁", link: "#" }
     - { text: "菜品展示", link: "#gallery" }
+    - { text: "菜單", link: "#menu" }
     - { text: "關於我們", link: "#about-us" }
     - { text: "聯繫我們", link: "#contact-us" }
     - { text: "English", link: "/" }
@@ -133,23 +134,16 @@ sections:
     imgNameColor: "#000000"
     menuItemImgRounded: "3xl" # sm | md | lg | xl | 2xl | 3xl | full
 
-  - type: "gallery"
+  - type: "menuDisplay"
     id: "menu"
-    mode: 2 # 1 - 3
-    bgImg: ""
-    bgImgAlt: ""
-    bgColor: ""
-    bgOpacity: "" # 0~1
+    bgColor: "#f5f5f5"
     title:
       - "菜單"
-    titleColor: "#000000"
+    titleColor: "#111111"
     description:
-      - "來自 Citrus Heights 的鐵板燒自助餐,您附近的人氣自助餐廳!"
-    descriptionColor: "#333333"
+      - "來自 Citrus Heights 的鐵板燒自助餐，您附近的人氣自助餐廳！"
+    descriptionColor: "#555555"
     folderPath: "menu"
-    showImgName: false # true | false
-    imgNameColor: "#000000"
-    menuItemImgRounded: "3xl" # sm | md | lg | xl | 2xl | 3xl | full
 
   # # textBlock
   #   - type: "textBlock"
@@ -184,6 +178,7 @@ sections:
   # textBlock - only title
   - type: "textBlock"
     id: "about-us"
+    halfMarginTop: true
     bgImg: ""
     bgImgAlt: ""
     bgColor: ""

@@ -39,6 +39,7 @@ header:
   menu:
     - { text: "Home", link: "/" }
     - { text: "Gallery", link: "#gallery" }
+    - { text: "Menu", link: "#menu" }
     - { text: "About Us", link: "#about-us" }
     - { text: "Contact Us", link: "#contact-us" }
     - { text: "中文", link: "/zh-cn" }
@@ -122,23 +123,16 @@ sections:
     imgNameColor: "#000000"
     menuItemImgRounded: "3xl" # sm | md | lg | xl | 2xl | 3xl | full
 
-  - type: "gallery"
+  - type: "menuDisplay"
     id: "menu"
-    mode: 2 # 1 - 3
-    bgImg: ""
-    bgImgAlt: ""
-    bgColor: ""
-    bgOpacity: "" # 0~1
+    bgColor: "#f5f5f5"
     title:
       - "Menu"
-    titleColor: "#000000"
+    titleColor: "#111111"
     description:
-      - "our all-you-can-eat buffet promises something for everyone!"
-    descriptionColor: "#333333"
+      - "Our all-you-can-eat buffet promises something for everyone!"
+    descriptionColor: "#555555"
     folderPath: "menu"
-    showImgName: false # true | false
-    imgNameColor: "#000000"
-    menuItemImgRounded: "3xl" # sm | md | lg | xl | 2xl | 3xl | full
 
   # # textBlock
   #   - type: "textBlock"
@@ -158,6 +152,7 @@ sections:
   # textBlock - only title
   - type: "textBlock"
     id: "about-us"
+    halfMarginTop: true
     bgImg: ""
     bgImgAlt: ""
     bgColor: ""

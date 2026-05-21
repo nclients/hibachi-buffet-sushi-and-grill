@@ -107,7 +107,7 @@ sections:
   # Gallery
   - type: "gallery"
     id: "gallery"
-    mode: 3 # 1 - 4
+    mode: 4 # 1 - 4
     bgImg: ""
     bgImgAlt: ""
     bgColor: ""

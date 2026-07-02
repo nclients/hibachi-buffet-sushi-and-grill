@@ -56,7 +56,7 @@ header:
   otherBtnHref: "https://maps.app.goo.gl/baq4QQgK9q8gsvuT6"
 
 sections:
-  - type: "accessibility"
+  - type: "privacy"
 footer:
   cookie: true
   mode: 1 # 1

@@ -38,10 +38,10 @@ header:
   menuTextColor: "#ffffff"
   menu:
     - { text: "Home", link: "/" }
-    - { text: "Gallery", link: "#gallery" }
-    - { text: "Menu", link: "#menu" }
-    - { text: "About Us", link: "#about-us" }
-    - { text: "Contact Us", link: "#contact-us" }
+    - { text: "Gallery", link: "/#gallery" }
+    - { text: "Menu", link: "/#menu" }
+    - { text: "About Us", link: "/#about-us" }
+    - { text: "Contact Us", link: "/#contact-us" }
     - { text: "中文", link: "/zh-cn" }
   addOrderOnlineBtn: false
   orderOnlineBtnInsteadText: ""
@@ -412,6 +412,7 @@ sections:
   #   btnHref: "https://maps.app.goo.gl/baq4QQgK9q8gsvuT6" # default orderOnlineLink
 
 footer:
+  cookie: true
   mode: 1 # 1
   noMarginTop: true
   bgImg: "gallery2/A view of a buffet with multiple food stations, offering a wide range of cuisines.webp"

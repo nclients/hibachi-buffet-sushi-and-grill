@@ -44,7 +44,7 @@ header:
 
 sections:
   - type: "menuDisplay"
-    id: "menu"
+    id: "menu-section"
     bgColor: "#111111"
     title:
       - "Menu"

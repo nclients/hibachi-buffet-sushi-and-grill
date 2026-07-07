@@ -1,0 +1,216 @@
+---
+import { getImagesFromFolders } from "../utils/readImages";
+
+const { section } = Astro.props;
+
+const hasHtmlMenu = Boolean(
+  section?.partyTrays || section?.toGo || section?.buffetPricing
+);
+
+// Legacy image-based menu (used when no structured data is provided)
+let leftTop, rightFull, leftBot, images;
+if (!hasHtmlMenu) {
+  images = getImagesFromFolders("/public/" + section?.folderPath);
+  // images[0] = menu1 (landscape, Party Trays)   → left top
+  // images[1] = menu2 (portrait, To Go Price)     → right full height
+  // images[2] = menu3 (square, Dinner pricing)    → left bottom
+  leftTop = images[0];
+  rightFull = images[1];
+  leftBot = images[2];
+}
+
+const partyTrays = section?.partyTrays;
+const toGo = section?.toGo;
+const buffetPricing = section?.buffetPricing;
+---
+
+<section
+  id={section?.id || ""}
+  class="pt-16 sm:pt-24 pb-8 sm:pb-12"
+  style={`background-color: ${section?.bgColor || "#f5f5f5"}`}
+>
+  <div class="mx-auto max-w-6xl px-6 lg:px-8">
+
+    <!-- Title -->
+    <div class="text-center mb-12">
+      <h2
+        class="text-4xl font-bold tracking-tight"
+        style={`color: ${section?.titleColor || "#111111"}`}
+      >
+        {section?.title?.map((line: string) => (
+          <span class="block">{line}</span>
+        ))}
+      </h2>
+      {section?.description?.map((info: string) => (
+        <p class="mt-3 text-lg" style={`color: ${section?.descriptionColor || "#555555"}`}>
+          {info}
+        </p>
+      ))}
+    </div>
+
+    {hasHtmlMenu ? (
+      <div class="flex flex-col gap-10">
+
+        <!-- Buffet Pricing -->
+        {buffetPricing && (
+          <div class="rounded-2xl bg-black p-6 sm:p-10">
+            {buffetPricing.title && (
+              <h3 class="text-2xl font-bold text-white text-center mb-8">{buffetPricing.title}</h3>
+            )}
+            <div class="grid gap-6 sm:grid-cols-3">
+              {buffetPricing.plans?.map((plan: { name: string; tiers: { label: string; price: string }[] }) => (
+                <div class="rounded-3xl border border-[#EA5A1B]/40 px-6 py-8 text-center">
+                  <h4 class="font-serif text-2xl text-white mb-6">{plan.name}</h4>
+                  <div class="flex flex-col gap-4">
+                    {plan.tiers?.map((tier) => (
+                      <div>
+                        <p class="text-xs uppercase tracking-wider text-gray-300 mb-1">{tier.label}</p>
+                        <p class="inline-block rounded-full bg-[#EA5A1B] px-4 py-1 text-xl font-bold text-white">
+                          {tier.price}
+                        </p>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              ))}
+            </div>
+            {buffetPricing.extras && (
+              <ul class="mt-8 flex flex-wrap justify-center gap-x-8 gap-y-2 text-sm text-gray-300">
+                {buffetPricing.extras.map((extra: string) => (
+                  <li>{extra}</li>
+                ))}
+              </ul>
+            )}
+          </div>
+        )}
+
+        <div class="grid gap-6 lg:grid-cols-2">
+          <!-- Party Trays -->
+          {partyTrays && (
+            <div class="rounded-2xl bg-black p-6 sm:p-8">
+              {partyTrays.title && (
+                <h3 class="text-2xl font-bold text-white text-center">{partyTrays.title}</h3>
+              )}
+              {partyTrays.subtitle && (
+                <p class="text-center text-[#EA5A1B] text-sm uppercase tracking-wider mt-1">
+                  {partyTrays.subtitle}
+                </p>
+              )}
+              {partyTrays.note && (
+                <p class="text-center text-gray-400 text-xs mt-1 mb-6">{partyTrays.note}</p>
+              )}
+              <div class="grid gap-x-2 gap-y-3 text-sm">
+                <div class="grid grid-cols-[1fr_auto_auto] items-center gap-3 text-gray-400 text-xs uppercase">
+                  <span></span>
+                  <span class="w-14 text-center">Half</span>
+                  <span class="w-14 text-center">Full</span>
+                </div>
+                {partyTrays.items?.map((item: { name: string; half: string; full: string }, i: number) => (
+                  <div class="grid grid-cols-[1fr_auto_auto] items-center gap-3">
+                    <span class="text-white">{i + 1}) {item.name}</span>
+                    <span class="w-14 rounded-full bg-[#EA5A1B] text-center text-white font-semibold py-0.5">{item.half}</span>
+                    <span class="w-14 rounded-full bg-[#EA5A1B] text-center text-white font-semibold py-0.5">{item.full}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
+
+          <!-- To Go Pricing -->
+          {toGo && (
+            <div class="rounded-2xl bg-black p-6 sm:p-8">
+              {toGo.title && (
+                <h3 class="text-2xl font-bold text-white text-center">{toGo.title}</h3>
+              )}
+              {toGo.subtitle && (
+                <p class="text-center text-gray-400 text-xs uppercase tracking-wider mt-1 mb-6">
+                  {toGo.subtitle}
+                </p>
+              )}
+              <div class="flex flex-col divide-y divide-[#EA5A1B]/30 border border-[#EA5A1B]/30 rounded-xl overflow-hidden">
+                {toGo.items?.map((item: { name: string; price: string }) => (
+                  <div class="flex items-center justify-between gap-4 px-4 py-2.5 text-sm">
+                    <span class="text-white">{item.name}</span>
+                    <span class="text-[#EA5A1B] font-bold whitespace-nowrap">{item.price}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
+        </div>
+      </div>
+    ) : (
+      <>
+        <!-- Desktop: left 2-stack + right 1-tall -->
+        <div class="hidden lg:flex gap-6 items-start">
+
+          <!-- Left column: 2 images stacked -->
+          <div class="flex-1 flex flex-col gap-6">
+            {leftTop && (
+              <div class="group cursor-pointer">
+                <div class="overflow-hidden rounded-2xl shadow-md bg-white border border-gray-100 hover:shadow-xl transition-all duration-300">
+                  <img
+                    src={leftTop.src.replace("/public", "")}
+                    alt={leftTop.name}
+                    class="w-full h-auto block group-hover:scale-[1.02] transition-transform duration-300"
+                    loading="lazy"
+                    data-src={leftTop.src}
+                  />
+                </div>
+              </div>
+            )}
+            {leftBot && (
+              <div class="group cursor-pointer">
+                <div class="overflow-hidden rounded-2xl shadow-md bg-white border border-gray-100 hover:shadow-xl transition-all duration-300">
+                  <img
+                    src={leftBot.src.replace("/public", "")}
+                    alt={leftBot.name}
+                    class="w-full h-auto block group-hover:scale-[1.02] transition-transform duration-300"
+                    loading="lazy"
+                    data-src={leftBot.src}
+                  />
+                </div>
+              </div>
+            )}
+          </div>
+
+          <!-- Right column: 1 tall image, natural size, no letterbox -->
+          {rightFull && (
+            <div class="flex-1 group cursor-pointer">
+              <div class="overflow-hidden rounded-2xl shadow-md bg-white border border-gray-100 hover:shadow-xl transition-all duration-300">
+                <img
+                  src={rightFull.src.replace("/public", "")}
+                  alt={rightFull.name}
+                  class="w-full h-auto block group-hover:scale-[1.02] transition-transform duration-300"
+                  loading="lazy"
+                  data-src={rightFull.src}
+                />
+              </div>
+            </div>
+          )}
+        </div>
+
+        <!-- Mobile: single column -->
+        <div class="flex flex-col gap-6 lg:hidden">
+          {images?.map((item) => (
+            <div class="group cursor-pointer">
+              <div class="overflow-hidden rounded-2xl shadow-md bg-white border border-gray-100 hover:shadow-xl transition-all duration-300">
+                <img
+                  src={item.src.replace("/public", "")}
+                  alt={item.name}
+                  class="w-full object-contain"
+                  loading="lazy"
+                  data-src={item.src}
+                />
+              </div>
+            </div>
+          ))}
+        </div>
+
+        <p class="text-center mt-8 text-sm" style="color:#999999">
+          Click on an image to view full size
+        </p>
+      </>
+    )}
+  </div>
+</section>

@@ -288,7 +288,7 @@ sections:
 
   # Menu teaser -> links to dedicated /menu page
   - type: "feature"
-    id: "menu"
+    id: "menu-section"
     noMarginTop: false
     sectionType: "imgWithText" # video | imgWithText | imgBg
     bgColor: "#111111"

@@ -39,7 +39,7 @@ header:
   menu:
     - { text: "首頁", link: "#" }
     - { text: "菜品展示", link: "#gallery" }
-    - { text: "菜單", link: "#menu" }
+    - { text: "菜單", link: "#menu-section" }
     - { text: "關於我們", link: "#about-us" }
     - { text: "聯繫我們", link: "#contact-us" }
     - { text: "English", link: "/" }
@@ -135,7 +135,7 @@ sections:
     menuItemImgRounded: "3xl" # sm | md | lg | xl | 2xl | 3xl | full
 
   - type: "menuDisplay"
-    id: "menu"
+    id: "menu-section"
     bgColor: "#f5f5f5"
     title:
       - "菜單"

@@ -41,7 +41,7 @@ header:
   menu:
     - { text: "Home", link: "/" }
     - { text: "Gallery", link: "/#gallery" }
-    - { text: "Menu", link: "/#menu" }
+    - { text: "Menu", link: "/menu" }
     - { text: "About Us", link: "/#about-us" }
     - { text: "Contact Us", link: "/#contact-us" }
     - { text: "中文", link: "/zh-cn" }

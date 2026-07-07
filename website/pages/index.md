@@ -39,7 +39,7 @@ header:
   menu:
     - { text: "Home", link: "/" }
     - { text: "Gallery", link: "/#gallery" }
-    - { text: "Menu", link: "/#menu" }
+    - { text: "Menu", link: "/menu" }
     - { text: "About Us", link: "/#about-us" }
     - { text: "Contact Us", link: "/#contact-us" }
     - { text: "中文", link: "/zh-cn" }
@@ -122,17 +122,6 @@ sections:
     showImgName: false # true | false
     imgNameColor: "#000000"
     menuItemImgRounded: "3xl" # sm | md | lg | xl | 2xl | 3xl | full
-
-  - type: "menuDisplay"
-    id: "menu"
-    bgColor: "#f5f5f5"
-    title:
-      - "Menu"
-    titleColor: "#111111"
-    description:
-      - "Our all-you-can-eat buffet promises something for everyone!"
-    descriptionColor: "#555555"
-    folderPath: "menu"
 
   # # textBlock
   #   - type: "textBlock"
@@ -297,6 +286,32 @@ sections:
 
     bottomRounded: "" # sm | md | lg | xl | 2xl | 3xl | full
 
+  # Menu teaser -> links to dedicated /menu page
+  - type: "feature"
+    id: "menu"
+    noMarginTop: false
+    sectionType: "imgWithText" # video | imgWithText | imgBg
+    bgColor: "#111111"
+    bgOpacity: "1"
+    title:
+      - "Menu"
+    titleColor: "#ffffff"
+    description:
+      - "Our all-you-can-eat buffet promises something for everyone! Explore our full buffet pricing, party trays, and to-go menu."
+    descriptionColor: "#cccccc"
+    isTextAlignCenter: false
+
+    addOrderOnlineBtn: false
+    addTableReservationBtn: false
+    showOtherBtn: false
+    btn1Text: "View Full Menu"
+    btn1Href: "/menu"
+
+    bannerImg: "gallery/Hibachi Buffet Sushi and Grill 9.webp"
+    imgAlt: "Sushi and appetizer trays at Hibachi Buffet Sushi and Grill"
+    imgPosition: "imgRight" # imgLeft | imgRight
+    imgRounded: "3xl" # sm | md | lg | xl | 2xl | 3xl | full
+
   # # textBlock
   #   - type: "textBlock"
   #     id: "about-us"
@@ -386,7 +401,7 @@ sections:
 
   # map
   - type: "map"
-    noMarginTop: false
+    noMarginTop: true
     id: "contact-us"
     mode: "fullWidth" # full-width | ...
     url: "https://maps.app.goo.gl/baq4QQgK9q8gsvuT6"
@@ -433,6 +448,7 @@ footer:
   menu:
     - { text: "Home", link: "#" }
     - { text: "Gallery", link: "#gallery" }
+    - { text: "Menu", link: "/menu" }
     - { text: "About Us", link: "#about-us" }
     - { text: "Contact Us", link: "#contact-us" }
     - { text: "中文", link: "/zh-cn" }

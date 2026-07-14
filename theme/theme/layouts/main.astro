@@ -17,6 +17,7 @@ import Cookie from "../components/Cookie.astro";
 import Accessibility from "../components/Accessibility.astro";
 import Reviews from "../components/Reviews.astro";
 import GoogleReviewsSlider from "../components/GoogleReviewsSlider.astro";
+import InstagramFeed from "../components/InstagramFeed.astro";
 import "../style/global.css";
 
 // Define the input types
@@ -446,7 +447,7 @@ let fullscreenImg = null;
           <a href="#footer" data-acsb-skip-link="footer" class="skip-link">Skip to Footer<div class="content" aria-hidden="true"><span class="icon">↵</span>ENTER</div></a></div></div></div></access-widget-ui>
 
     {content?.header && <Header content={content} />}
-    <main id="maincontent">
+    <main id="maincontent" class={content?.header?.social ? "pt-10" : ""}>
     {
       content?.sections?.map((section: { type: string }) => {
         if (section?.type === "feature" || section?.type === "hero") {
@@ -480,6 +481,8 @@ let fullscreenImg = null;
           return <Cookie section={section} content={content} />;
         }else if (section?.type === "accessibility") {
           return <Accessibility section={section} content={content} />;
+        } else if (section?.type === "instagramFeed") {
+          return <InstagramFeed section={section} />;
         }
       })
     }

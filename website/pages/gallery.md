@@ -13,19 +13,6 @@ dataGlfRuid: ""
 orderOnlineLink: "#"
 tableReservationLink: ""
 tel: "(916) 961-1508"
-address: 5623 Sunrise Blvd, Citrus Heights, CA 95610
-creationDate: 1 Jan, 2025
-
-# banner:
-#   text:
-#     - boldText: "🔥 All you can eat seafood, sushi and hibachi grill. Limited time offer. soft opening special . take 15% off entire bill with this ad."
-#     - text: ""
-#     # - smText: ""
-#     # - text: ""
-#   # add more text...
-#   textColor: "#ffffff"
-#   bgColor: "#EA5A1B"
-#   bgOpacity: "1" # 0~1
 
 # header
 header:
@@ -64,7 +51,24 @@ header:
     tiktokLink: "https://www.tiktok.com/@hibachibuffetsac?_r=1&_t=ZP-980m94PjU35"
 
 sections:
-  - type: "cookie"
+  - type: "gallery"
+    id: "gallery"
+    mode: 4 # 1 - 4
+    bgColor: "#ffffff"
+    bgOpacity: ""
+    title:
+      - "Photo Gallery"
+    titleColor: "#000000"
+    description:
+      - "A closer look at our buffet, sushi, and hibachi grill favorites"
+    descriptionColor: "#333333"
+    folderPath: "gallery,gallery2"
+    showImgName: false # true | false
+    imgNameColor: "#000000"
+    menuItemImgRounded: "3xl" # sm | md | lg | xl | 2xl | 3xl | full
+    initialVisibleMobile: 6
+    initialVisibleDesktop: 12
+
 footer:
   cookie: true
   mode: 1 # 1
@@ -85,10 +89,10 @@ footer:
   logoSize: 70
 
   menu:
-    - { text: "Home", link: "#" }
+    - { text: "Home", link: "/" }
     - { text: "Gallery", link: "/gallery" }
-    - { text: "About Us", link: "#about-us" }
-    - { text: "Contact Us", link: "#contact-us" }
+    - { text: "About Us", link: "/#about-us" }
+    - { text: "Contact Us", link: "/#contact-us" }
     - { text: "中文", link: "/zh-cn" }
 
   FB: false
@@ -106,7 +110,12 @@ footer:
 
   # optional
 seo:
-  canonicalHref: "https://hibachibuffetsacramento.com/accessibility"
+  metaTitle: "Gallery | Hibachi Buffet Sushi & Grill | Citrus Heights"
+  metaDescription: "Browse photos of our buffet, sushi, and hibachi grill at Hibachi Buffet Sushi & Grill in Citrus Heights, CA, plus our latest Instagram videos."
+  img: "Hibachi Buffet- Sushi & Grill - Best Food Today.webp"
+  thisPageUrl: "/gallery"
+  locale: "en_US" # zh_TW | zh_CN
+  canonicalHref: "https://hibachibuffetsacramento.com/gallery"
 ---
 
 <!-- hello world -->

@@ -1,0 +1,59 @@
+---
+const { section } = Astro.props;
+const posts = section?.posts?.filter((post: { url: string }) => post?.url) || [];
+---
+
+<section
+  id={`${section?.id || ""}`}
+  class={section?.noMarginTop ? "pt-0" : "pt-16 sm:pt-24 md:pt-32"}
+  style={`background-color:${section?.bgColor}`}
+>
+  <div class="mx-auto max-w-7xl px-6 lg:px-8">
+    <div class="mx-auto max-w-2xl">
+      <h2 class="text-3xl font-bold text-gray-900 sm:text-4xl text-center">
+        {section?.title?.map((line: string, index: number) => (
+          <Fragment key={index}>
+            <span class="block leading-16">{line}</span>
+          </Fragment>
+        ))}
+      </h2>
+
+      {section?.description?.map((info: string, index: number) => (
+        <Fragment key={index}>
+          <p class="mt-4 text-lg leading-8 text-gray-600 text-center">
+            {info}
+          </p>
+        </Fragment>
+      ))}
+    </div>
+
+    {
+      posts.length > 0 ? (
+        <div class="mx-auto mt-12 grid max-w-2xl grid-cols-1 gap-8 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3">
+          {posts.map((post: { url: string }, index: number) => (
+            <Fragment key={index}>
+              <blockquote
+                class="instagram-media"
+                data-instgrm-permalink={post?.url}
+                data-instgrm-version="14"
+                style="margin:0 auto; width:100%;"
+              />
+            </Fragment>
+          ))}
+        </div>
+      ) : (
+        <div class="mx-auto mt-12 max-w-2xl text-center">
+          <a
+            href={section?.profileLink || "#"}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-flex items-center gap-2 rounded-lg bg-gray-900 px-6 py-3 font-semibold text-white hover:bg-gray-800 transition-colors"
+          >
+            {section?.profileLinkText || "Follow us on Instagram"}
+          </a>
+        </div>
+      )
+    }
+  </div>
+  {posts.length > 0 && <script async src="https://www.instagram.com/embed.js" />}
+</section>

@@ -28,7 +28,7 @@ tel: "(916) 961-1508"
 # header
 header:
   logoSize: 60
-  logoSizeOnMobile: 50
+  logoSizeOnMobile: 36
   textAfterLogo:
     text: ""
     size: 16
@@ -52,6 +52,14 @@ header:
   addOtherBtn: true
   otherBtnInsteadText: "導航去餐廳"
   otherBtnHref: "https://maps.app.goo.gl/baq4QQgK9q8gsvuT6"
+  social:
+    bgColor: "#000000"
+    FB: true
+    FBLink: "https://www.facebook.com/profile.php?id=61556289586865&mibextid=wwXIfr"
+    IG: true
+    IGLink: "https://www.instagram.com/hibachibuffetsushiandgrill?utm_source=qr"
+    tiktok: true
+    tiktokLink: "https://www.tiktok.com/@hibachibuffetsac?_r=1&_t=ZP-980m94PjU35"
 
 sections:
   # hero

@@ -30,7 +30,7 @@ creationDate: 1 Jan, 2025
 # header
 header:
   logoSize: 60
-  logoSizeOnMobile: 50
+  logoSizeOnMobile: 36
   textAfterLogo:
     text: ""
     size: 16
@@ -40,7 +40,7 @@ header:
   menuTextColor: "#ffffff"
   menu:
     - { text: "Home", link: "/" }
-    - { text: "Gallery", link: "/#gallery" }
+    - { text: "Gallery", link: "/gallery" }
     - { text: "Menu", link: "/menu" }
     - { text: "About Us", link: "/#about-us" }
     - { text: "Contact Us", link: "/#contact-us" }
@@ -54,6 +54,14 @@ header:
   addOtherBtn: true
   otherBtnInsteadText: "Get Direction"
   otherBtnHref: "https://maps.app.goo.gl/baq4QQgK9q8gsvuT6"
+  social:
+    bgColor: "#000000"
+    FB: true
+    FBLink: "https://www.facebook.com/profile.php?id=61556289586865&mibextid=wwXIfr"
+    IG: true
+    IGLink: "https://www.instagram.com/hibachibuffetsushiandgrill?utm_source=qr"
+    tiktok: true
+    tiktokLink: "https://www.tiktok.com/@hibachibuffetsac?_r=1&_t=ZP-980m94PjU35"
 
 sections:
   - type: "terms"
@@ -78,7 +86,7 @@ footer:
 
   menu:
     - { text: "Home", link: "#" }
-    - { text: "Gallery", link: "#gallery" }
+    - { text: "Gallery", link: "/gallery" }
     - { text: "About Us", link: "#about-us" }
     - { text: "Contact Us", link: "#contact-us" }
     - { text: "中文", link: "/zh-cn" }

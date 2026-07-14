@@ -7,7 +7,7 @@ const { content, section } = Astro.props;
 <section
   id={`${section?.id || ""}`}
   class={cn(
-    "px-6 scroll-mt-100 sm:scroll-mt-150",
+    "px-6 scroll-mt-28 sm:scroll-mt-36",
     section?.noMarginTop ? "pt-0" : "pt-16 sm:pt-24 md:pt-32",
     section?.bgImg ? "py-8 sm:py-16 lg:py-24" : "",
     section?.isOnlyDisplayOnMobile ? "block sm:hidden" : ""

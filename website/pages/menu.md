@@ -62,25 +62,26 @@ sections:
     descriptionColor: "#EA5A1B"
     buffetPricing:
       title: "Buffet Pricing"
+      note: "Effective July 27th, 2026"
       plans:
         - name: "Weekday Lunch"
           tiers:
-            - { label: "Regular", price: "$16.99" }
-            - { label: "Senior 65+", price: "$15.29" }
-            - { label: "Kids 7-10", price: "$8.99" }
+            - { label: "Regular", price: "$17.59" }
+            - { label: "Senior 65+", price: "$15.83" }
+            - { label: "Kids 7-10", price: "$9.99" }
             - { label: "Kids 3-6", price: "$6.99" }
         - name: "Weekday Dinner"
           tiers:
-            - { label: "Regular", price: "$23.99" }
-            - { label: "Senior 65+", price: "$21.59" }
+            - { label: "Regular", price: "$24.79" }
+            - { label: "Senior 65+", price: "$22.30" }
             - { label: "Kids 7-10", price: "$11.99" }
             - { label: "Kids 3-6", price: "$8.99" }
         - name: "Weekend Dinner"
           tiers:
-            - { label: "Regular", price: "$24.99" }
-            - { label: "Senior 65+", price: "$22.49" }
-            - { label: "Kids 7-10", price: "$11.99" }
-            - { label: "Kids 3-6", price: "$8.99" }
+            - { label: "Regular", price: "$25.99" }
+            - { label: "Senior 65+", price: "$23.39" }
+            - { label: "Kids 7-10", price: "$12.99" }
+            - { label: "Kids 3-6", price: "$9.99" }
       extras:
         - "Soft Drinks $2.59"
         - "Beer $5.99"

@@ -55,7 +55,10 @@ const buffetPricing = section?.buffetPricing;
         {buffetPricing && (
           <div class="rounded-2xl bg-black p-6 sm:p-10">
             {buffetPricing.title && (
-              <h3 class="text-2xl font-bold text-white text-center mb-8">{buffetPricing.title}</h3>
+              <h3 class={`text-2xl font-bold text-white text-center ${buffetPricing.note ? "mb-2" : "mb-8"}`}>{buffetPricing.title}</h3>
+            )}
+            {buffetPricing.note && (
+              <p class="text-center text-gray-400 text-xs mt-1 mb-8">{buffetPricing.note}</p>
             )}
             <div class="grid gap-6 sm:grid-cols-3">
               {buffetPricing.plans?.map((plan: { name: string; tiers: { label: string; price: string }[] }) => (

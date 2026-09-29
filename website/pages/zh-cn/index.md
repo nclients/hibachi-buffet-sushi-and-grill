@@ -453,7 +453,8 @@ footer:
   bgColor: "#000000"
   bgOpacity: "0.8" # 0~1
   openingHours:
-    - "週一 ～ 週日: 11:00 AM - 9:00 PM"
+    - "週日 ～ 週四: 11:00 AM - 9:00 PM"
+    - "週五 ～ 週六: 11:00 AM - 10:00 PM"
   openingHoursInsteadText: "營業時間"
 
   addressInsteadText: "地 址"

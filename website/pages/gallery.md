@@ -78,7 +78,8 @@ footer:
   bgColor: "#000000"
   bgOpacity: "0.8" # 0~1
   openingHours:
-    - "Monday to Sunday: 11:00 AM - 9:00 PM"
+    - "Sunday - Thursday: 11:00 AM - 9:00 PM"
+    - "Friday - Saturday: 11:00 AM - 10:00 PM"
 
   addressInsteadText: "Address"
   address:
